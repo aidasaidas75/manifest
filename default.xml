@@ -445,9 +445,8 @@
 
   <!-- and P700 !! -->
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
-  <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="THLG"/>
-  <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
-  <project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="AOKP4LG"/>
+  <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="cr3pt"/>
+  <project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="cr3pt"/>
   <project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk-extra" remote="cr3pt"/>
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" revision="cm-11.0" remote="cr3pt"/>
   <project path="external/chromium_org" name="android_external_chromium_org" revision="cm-11.0" remote="cr3pt"/>
