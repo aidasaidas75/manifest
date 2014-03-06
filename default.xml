@@ -311,11 +311,11 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom"  remote="cm" revision="cm-11.0"/>
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom"  remote="cm" revision="cm-11.0"/>
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom"  remote="cm" revision="cm-11.0"/>
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" groups="caf" remote="THLG"/>
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" groups="caf" revision="cm-11.0" remote="THLG"/>
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom"  remote="cm" revision="cm-11.0"/>
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom"  remote="cm" revision="cm-11.0"/>
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom"  remote="cm" revision="cm-11.0"/>
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" groups="caf" remote="THLG"/>
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" groups="caf" revision="cm-11.0" remote="THLG"/>
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960"  remote="cm" revision="cm-11.0"/>
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74"  remote="cm" revision="cm-11.0"/>
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power"  remote="cm" revision="cm-11.0"/>
