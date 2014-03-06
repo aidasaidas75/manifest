@@ -33,6 +33,9 @@
 
   <remote name="CRX"
            fetch="git://github.com/CRXTeam/" />
+           
+  <remote name="bart"
+           fetch="git://github.com/bart452/" />
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
@@ -473,7 +476,7 @@
   <project path="kernel/lge/msm7x27a-common" name="lge-kernel-lproj" revision="android-msm-3.4-kk-extra" remote="cr3pt"/>
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" revision="cm-11.0" remote="cr3pt"/>
   <project path="external/chromium_org" name="android_external_chromium_org" revision="cm-11.0" remote="cr3pt"/>
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="cr3pt" revision="cm-11.0"/>
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="bart" revision="kk44"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="CRX" revision="kitkat"/>
   
   <!-- webkit -->
