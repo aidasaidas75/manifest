@@ -476,6 +476,8 @@
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
   
+  <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="cm" revision="android-4.4" />
+  
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="AOSPA" revision="kitkat"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="CRX" revision="kitkat"/>
