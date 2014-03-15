@@ -478,6 +478,13 @@
   
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="cm" revision="android-4.4" />
   
+  <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
+  <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
+  <project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="cm-11.0" remote="CRX"/>
+  
+  <project path="vendor/sony" name="android_vendor_sony" revision="cm-11.0" remote="CRX"/>
+  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-11.0" remote="CRX"/>
+  
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="cm" revision="cm-11.0" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="AOSPA" revision="kitkat"/>
   <project path="frameworks/base" name="android_frameworks_base" remote="CRX" revision="kitkat"/>
