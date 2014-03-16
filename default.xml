@@ -491,6 +491,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="CRX" revision="kitkat"/>
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="cm-11.0" />
   
-  <project path="frameworks/opt/cards" name="CRXTeam/android_frameworks_opt_cards" remote="cm" revision="kk4.4" />
+  <project path="frameworks/opt/cards" name="CRXTeam/frameworks_opt_cards" remote="cm" revision="kk4.4" />
 
 </manifest>
