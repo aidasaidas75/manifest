@@ -477,6 +477,7 @@
   </project>
   
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="cm" revision="android-4.4" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/Superuser" remote="cm" revision="cm-11.0" />
   
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
   <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
@@ -491,6 +492,4 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="CRX" revision="kitkat"/>
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="cm-11.0" />
   
-  <project path="frameworks/opt/cards" name="CRXTeam/frameworks_opt_cards" remote="cm" revision="kk4.4" />
-
 </manifest>
