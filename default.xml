@@ -359,7 +359,7 @@
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="cm-11.0" />
   <!-- <project path="packages/apps/Leds" name="android_packages_apps_Leds" remote="CRX" revision="kitkat" /> -->
   <project path="packages/apps/Lightbulb" name="AOSPA/android_packages_apps_Lightbulb" remote="github" revision="kitkat" />
-  <project path="packages/apps/Mms" name="CRXTeam/android_packages_apps_Mms" remote="github" revision="kk4.4" />
+  <project path="packages/apps/Mms" name="CRXTeam/packages_apps_Mms" remote="github" revision="kk4.4" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
