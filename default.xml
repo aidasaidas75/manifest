@@ -484,8 +484,4 @@
   
   <project path="vendor/sony" name="android_vendor_sony" revision="cm-11.0" remote="CRX"/>
   <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-11.0" remote="CRX"/>
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" revision="cm-11.0" remote="CRX"/>
-  <project path="device/sony/common" name="android_device_sony_common" revision="cm-11.0" remote="CRX"/>
-  <project path="hardware/sony/DASH" name="android_hardware_sony_DASH" revision="cm-11.0" remote="CRX"/>
-  <project path="kernel/sony/msm8960t" name="android_kernel_sony_msm8960t" revision="cm-11.0" remote="CRX"/>
 </manifest>
