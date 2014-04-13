@@ -485,6 +485,7 @@
   
   <project path="vendor/sony" name="android_vendor_sony" revision="cm-11.0" remote="CRX"/>
   <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-11.0" remote="CRX"/>
-  <project path="device/sony/qcom-common" name="device_sony_common" revision="kitkat" remote="CRX"/>
+  <project path="device/sony/common" name="device_sony_common" revision="kitkat" remote="CRX"/>
+  <project path="device/sony/qcom-common" name="device_sony_qcom-common" revision="kitkat" remote="CRX"/>
   
 </manifest>
