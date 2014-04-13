@@ -477,15 +477,14 @@
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
   
+    <!-- CRX devices... -->
+  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-11.0" remote="CRX"/>
+  
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
   <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="CRX"/>
   <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
   <project path="device/lge/p705" name="android_device_lge_p705" revision="cm-11.0" remote="CRX"/>
   <project path="device/lge/msm7x27a-common" name="android_device_lge_msm7x27a-common" revision="AOSPA" remote="CRX"/>
   
-  <project path="vendor/sony" name="android_vendor_sony" revision="cm-11.0" remote="CRX"/>
-  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-11.0" remote="CRX"/>
-  <project path="device/sony/common" name="device_sony_common" revision="kitkat" remote="CRX"/>
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" revision="kitkat" remote="CRX"/>
   
 </manifest>
