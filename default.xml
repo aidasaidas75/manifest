@@ -478,7 +478,7 @@
   </project>
   
     <!-- CRX devices... -->
-  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="cm-11.0" remote="CRX"/>
+  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="kitkat" remote="CRX"/>
   
   <project path="vendor/lge" name="proprietary_vendor_lge" revision="cm-11.0" remote="cr3pt"/>
   <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="CRX"/>
