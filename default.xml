@@ -49,7 +49,6 @@
            sync-f="true"
            sync-j="4" />
 
-  <!-- <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" /> -->
   <project path="manifest" name="CRXTeam/manifest" remote="github" revision="kitkat"  />
 
   <project path="build" name="CRXTeam/android_build" remote="github" revision="kitkat" >
@@ -59,16 +58,20 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="AOSPA-legacy/android_art" remote="github" revision="kitkat" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-11.0" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" groups="pdk" />
+ 
   <project path="cts" name="platform/cts" groups="cts" />
+ 
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="cm" revision="cm-11.0" />
+ 
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="CyanogenMod/android_development" remote="cm" revision="cm-11.0" />
+ 
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-11.0" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -80,8 +83,14 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="CRX"/>
+  <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
+  <project path="device/lge/p705" name="android_device_lge_p705" revision="cm-11.0" remote="CRX"/>
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="kitkat" remote="CRX"/>
+  
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
+  
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -409,7 +418,9 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Telephony" name="AOSPA-legacy/android_packages_services_Telephony" remote="github" revision="kitkat" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
+  
   <project path="pdk" name="platform/pdk" groups="pdk" />
+  
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
   <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin,arm" />
@@ -457,7 +468,9 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
+  
   <project path="sdk" name="platform/sdk" />
+  
   <project path="system/core" name="CRXTeam/android_system_core" remote="github" revision="kitkat" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0"/>
   <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-11.0" groups="pdk" />
@@ -465,6 +478,7 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="cm" revision="cm-11.0" groups="pdk" />
+  
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -480,15 +494,7 @@
   <project path="vendor/pa" name="CRXTeam/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />    
   </project>
-  
-    <!-- CRX devices... in alfabetical-->
-    <!-- LGE -->
-  <project path="device/lge/e610" name="android_device_lge_e610" revision="cm-11.0" remote="CRX"/>
-  <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
-  <project path="device/lge/p705" name="android_device_lge_p705" revision="cm-11.0" remote="CRX"/>
 
-    <!-- SONY -->
-  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="kitkat" remote="CRX"/>
 
   
   
