@@ -87,6 +87,7 @@
   <project path="device/lge/p700" name="android_device_lge_p700" revision="cm-11.0" remote="CRX"/>
   <project path="device/lge/p705" name="android_device_lge_p705" revision="cm-11.0" remote="CRX"/>
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/semc/coconut" name="android_device_semc_coconut" revision="kitkat" remote="CRX" />
   <project path="device/sony/huashan" name="android_device_sony_huashan" revision="kitkat" remote="CRX"/>
   
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
