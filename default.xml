@@ -495,8 +495,8 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="vendor/pa" name="CRXTeam/android_vendor_pa" remote="github" revision="kitkat" >
-    <copyfile src="build.sh" dest="rom-build.sh" />    
+  <project path="vendor/cpa" name="CRXTeam/android_vendor_cpa" remote="github" revision="kitkat" >
+    <copyfile src="build.sh" dest="cpa-build.sh" />    
   </project>
 
 
