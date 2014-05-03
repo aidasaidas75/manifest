@@ -83,6 +83,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/lge/d605" name="android_device_lge_d605" revision="kitkat" remote="CRX"/>
   <project path="device/lge/e610" name="android_device_lge_e610" revision="kitkat" remote="CRX"/>
   <project path="device/lge/p700" name="android_device_lge_p700" revision="kitkat" remote="CRX"/>
   <project path="device/lge/p705" name="android_device_lge_p705" revision="kitkat" remote="CRX"/>
