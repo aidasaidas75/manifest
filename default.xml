@@ -30,9 +30,6 @@
 
   <remote name="CR"
            fetch="git://github.com/CrystalRoms/" />
-           
-  <remote name="AOKP4LG"
-           fetch="git://github.com/AOKP4LG/" />
   
   <remote name="cr3pt"
            fetch="git://github.com/cr3pt/" />
@@ -83,13 +80,6 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/d605" name="android_device_lge_d605" revision="kitkat" remote="CRX"/>
-  <project path="device/lge/e610" name="android_device_lge_e610" revision="kitkat" remote="CRX"/>
-  <project path="device/lge/p700" name="android_device_lge_p700" revision="kitkat" remote="CRX"/>
-  <project path="device/lge/p705" name="android_device_lge_p705" revision="kitkat" remote="CRX"/>
-  <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/semc/coconut" name="android_device_semc_coconut" revision="kitkat" remote="CRX" />
-  <project path="device/sony/huashan" name="android_device_sony_huashan" revision="kitkat" remote="CRX"/>
   
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   
