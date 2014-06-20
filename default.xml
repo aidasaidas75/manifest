@@ -330,7 +330,6 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="cm" revision="cm-11.0" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
