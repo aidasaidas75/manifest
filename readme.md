@@ -4,7 +4,7 @@ ParanoidAndroid from CRXTeam
 Getting Started
 ---------------
 
-To get started with ParanoidAndroid from CTXTeam, you'll need to get
+To get started with ParanoidAndroid from CRXTeam, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the ParanoidAndroid trees, use a command like this:
