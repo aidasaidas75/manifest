@@ -49,6 +49,10 @@
   <remote name="gh"
            fetch="https://github.com/" />
            
+  <remote name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+           
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-c="true"
