@@ -44,10 +44,13 @@
            fetch="git://github.com/androidarmv6/" />
 
   <remote name="ln"
-          fetch="git://android.git.linaro.org/" />	
+           fetch="git://android.git.linaro.org/" />	
           
   <remote name="gh"
            fetch="https://github.com/" />
+  
+  <remote name="ak"
+           fetch="git://github.com/anarkia1976/" />
            
   <remote name="omnirom"
            review="gerrit.omnirom.org"
