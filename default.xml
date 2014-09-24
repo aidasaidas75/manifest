@@ -397,7 +397,6 @@
   <project path="packages/apps/Contacts" name="AOSPA-legacy/android_packages_apps_Contacts" remote="github" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="CRXTeam/android_packages_apps_ContactsCommon" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CPAWallpapers" name="CRXTeam/android_packages_apps_CPAWallpapers" remote="github" revision="kitkat" />
-  <project path="packages/apps/CrystalOTA" name="android_packages_apps_CrystalOTA" remote="CRX" revision="kitkat" />
   <project path="packages/apps/DeskClock" name="CRXTeam/packages_apps_DeskClock" remote="github" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="CRXTeam/android_packages_apps_Dialer" remote="github" revision="kitkat" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="cm" revision="cm-11.0" />
@@ -409,6 +408,7 @@
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" remote="cm" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
+  <project path="packages/apps/ParanoidOTA" name="android_packages_apps_ParanoidOTA" remote="CRX" revision="kitkat" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
