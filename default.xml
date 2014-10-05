@@ -55,6 +55,9 @@
   <remote name="omnirom"
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
+
+  <remote name="horn3t"
+           fetch="https://github.com/horn3t/" />
            
   <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
@@ -409,6 +412,7 @@
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/ParanoidOTA" name="android_packages_apps_ParanoidOTA" remote="CRX" revision="kitkat" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PerformanceControl" name="PerformanceControl" remote="horn3t" revision="jb2" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="cm" revision="cm-11.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
