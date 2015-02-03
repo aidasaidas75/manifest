@@ -443,11 +443,11 @@
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-12.0" />
-  <project path="packages/apps/Contacts" name="AOSPA-legacy/android_packages_apps_Contacts" remote="github" revision="lollipop" />
+  <project path="packages/apps/Contacts" name="CRXTeam/android_packages_apps_Contacts" remote="github" revision="lollipop" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/CPAWallpapers" name="CRXTeam/android_packages_apps_CPAWallpapers" remote="github" revision="lollipop" />
   <project path="packages/apps/DeskClock" name="AOSPA-legacy/android_packages_apps_Deskclock" remote="github" revision="lollipop" />
-  <project path="packages/apps/Dialer" name="AOSPA-legacy/android_packages_apps_Dialer" remote="github" revision="lollipop" />
+  <project path="packages/apps/Dialer" name="CRXTeam/android_packages_apps_Dialer" remote="github" revision="lollipop" />
   <project path="packages/apps/Eleven" name="AOSPA-legacy/android_packages_apps_Eleven" remote="github" revision="lollipop" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
